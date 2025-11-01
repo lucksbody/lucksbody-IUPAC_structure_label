@@ -8,8 +8,8 @@ from typing import List, Optional
 
 from rdkit import Chem
 
-from chem_gui.drawing import export_mol_v3000, generate_labeled_images
-from chem_gui.labeling import sync_mapnum_from_labels
+from chem_gui.core.drawing import export_mol_v3000, generate_labeled_images
+from chem_gui.core.labeling import sync_mapnum_from_labels
 
 
 class ChemistryGUI:

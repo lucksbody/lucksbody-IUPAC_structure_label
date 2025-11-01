@@ -9,8 +9,8 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem.Draw import rdMolDraw2D
 
-from chem_gui.chemistry import get_extended_smiles, parse_cxsmiles_av_labels
-from chem_gui.labeling import add_labels_as_atom_notes, build_proton_rule_labels
+from .chemistry import get_extended_smiles, parse_cxsmiles_av_labels
+from .labeling import add_labels_as_atom_notes, build_proton_rule_labels
 
 
 def draw_labeled_mol_svg(mol: Chem.Mol, width: int = 600, height: int = 450, legend: Optional[str] = None) -> str:
