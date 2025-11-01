@@ -1,4 +1,4 @@
-"""GUI interface for the chemistry application."""
+"""GUI interface for the IUPAC labeler application."""
 
 from .app import ChemistryGUI, launch_gui
 

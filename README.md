@@ -4,18 +4,18 @@
 
 ```
 .
-├── main.py                    # 程序入口
-├── requirements.txt           # Python依赖
-└── chem_gui/                  # 应用程序包
-    ├── __init__.py           # 包初始化
-    ├── core/                 # 核心功能模块
-    │   ├── __init__.py      
-    │   ├── chemistry.py      # 化学处理（IUPAC转换、SMILES解析）
-    │   ├── labeling.py       # 标注逻辑（原子选择、标签处理）
-    │   └── drawing.py        # 绘图导出（SVG/PNG/MOL）
-    └── gui/                  # GUI界面模块
+├── main.py                       # 程序入口
+├── requirements.txt              # Python依赖
+└── iupac_labeler/                # 应用程序包
+    ├── __init__.py              # 包初始化
+    ├── core/                    # 核心功能模块
+    │   ├── __init__.py          # 核心导出
+    │   ├── chemistry.py         # 化学处理（IUPAC转换、SMILES解析）
+    │   ├── labeling.py          # 标注逻辑（原子选择、标签处理）
+    │   └── drawing.py           # 绘图导出（SVG/PNG/MOL）
+    └── gui/                     # GUI界面模块
         ├── __init__.py
-        └── app.py            # Tkinter GUI应用
+        └── app.py               # Tkinter GUI应用
 ```
 
 ## 模块说明
